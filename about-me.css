@@ -1,0 +1,63 @@
+.header {
+  padding: 100px;
+  text-align: center;
+  background-image: url(/home/lcantaert/Downloads/daniel-leone-v7daTKlZzaw-unsplash.jpg);
+  background-position: 50% 44%;
+  background-repeat: no-repeat;
+  overflow: auto;
+  background-opacity: 0.6;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  margin: 2px;
+
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 2;
+}
+
+.footer {
+  text-align: center;
+  background-color: #333;
+
+}
+
+.ulnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  display: flex;
+  flex-direction: center;
+  float: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listnav  {
+  color: white;
+  padding: 14px 15px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+
+/* Change the link color to #111 (black) on hover */
+ a:hover {
+  background-color: #111;
+}
+
+h2 {
+  text-align: center;
+}
