@@ -1,34 +1,15 @@
+
 .header {
-  padding: 100px;
   text-align: center;
-  background-image: url(/home/lcantaert/Downloads/daniel-leone-v7daTKlZzaw-unsplash.jpg);
-  background-position: 50% 44%;
+  width: 100%;
+  height:60px;
+  background-image: url("/home/lcantaert/Downloads/Nepal.jpg");
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
   background-repeat: no-repeat;
-  overflow: auto;
-  background-opacity: 0.6;
-}
-
-body {
-  font-family: 'Raleway', sans-serif;
-  text-align: left;
-  margin: 2px;
-
-}
-
-.site {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-.site-content {
-  flex: 2;
-}
-
-.footer {
-  text-align: center;
-  background-color: #333;
-
+  padding: 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .ulnav {
@@ -37,21 +18,16 @@ body {
   padding: 0;
   background-color: #333;
   display: flex;
-  flex-direction: center;
-  float: center;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .listnav  {
-  color: white;
+  color: #e8e8e8;
   padding: 14px 15px;
   text-decoration: none;
   display: inline-block;
 }
-
-
 
 /* Change the link color to #111 (black) on hover */
  a:hover {
@@ -60,4 +36,75 @@ body {
 
 h2 {
   text-align: center;
+  font-size: 2rem;
+}
+
+h1 {
+  display:flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.4;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: auto;
+}
+
+.site {
+  color: #3b3434;
+}
+
+.site-content {
+  flex: 2;
+}
+
+#titlefirst {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.list {
+  width: 500px;
+  margin: auto;
+}
+
+ol {
+  color: #ccc;
+  list-style-type: none;
+}
+
+ol li {
+  position: sticky;
+  font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+
+}
+
+li p {
+  font: 12px/1.5 Helvetica, sans-serif;
+  padding-left: 60px;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+span {
+  position: absolute;
+}
+
+.footer {
+  text-align: center;
+  background-color: #333;
+  color: #e8e8e8;
+  font-size: 1rem;
+}
+
+.article {
+  display: flex;
+}
+
+.lines {
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
 }

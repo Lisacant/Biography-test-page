@@ -1,34 +1,46 @@
+
 .header {
-  padding: 100px;
   text-align: center;
-  background-image: url(/home/lcantaert/Downloads/daniel-leone-v7daTKlZzaw-unsplash.jpg);
-  background-position: 50% 44%;
+  width: 100%;
+  height:60px;
+  background-image: url("/home/lcantaert/Downloads/Nepal.jpg");
+  background-size: cover; /* or contain depending on what you want */
+  background-position: center center;
   background-repeat: no-repeat;
-  overflow: auto;
-  background-opacity: 0.6;
+  padding:0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 body {
   font-family: 'Raleway', sans-serif;
-  text-align: left;
-  margin: 0;
+  margin: auto;
+}
 
+h1 {
+  display:flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.4;
 }
 
 .site {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+  color: #3b3434;
 }
 
 .site-content {
-  flex: 1;
+  flex: 2;
 }
 
 .footer {
   text-align: center;
   background-color: #333;
-
+  color: #e8e8e8;
+  font-size: 1rem;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
 }
 
 .ulnav {
@@ -37,21 +49,16 @@ body {
   padding: 0;
   background-color: #333;
   display: flex;
-  flex-direction: center;
-  float: center;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .listnav  {
-  color: white;
+  color: #e8e8e8;;
   padding: 14px 15px;
   text-decoration: none;
   display: inline-block;
 }
-
-
 
 /* Change the link color to #111 (black) on hover */
  a:hover {
@@ -60,4 +67,94 @@ body {
 
 h2 {
   text-align: center;
+}
+
+.quote {
+  text-align: center;
+}
+
+/* Code for social media*/
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+
+ul {
+    padding:0;
+    list-style: none;
+}
+
+
+.social-icon {
+    color: #fff;
+}
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    font-size: 50px;
+    padding-left: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-instagram:hover {
+    background-color: #b53398;
 }

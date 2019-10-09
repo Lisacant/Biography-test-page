@@ -1,61 +1,58 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
   <head>
     <meta charset="utf-8">
     <style>
+    @import url("https://fonts.googleapis.com/css?family=Lato");
     @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
     </style>
+    <script src="https://kit.fontawesome.com/be02f39b81.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>About me</title>
-      <link rel="stylesheet" href="about-me.css">
-
+    <title>Lisa's webpage</title>
+      <link rel="stylesheet" href="about-me-page-2.css">
   </head>
 
   <nav class ="nav">
     <ul class="ulnav">
       <li><a class="listnav" href="about-me.html">Home</a></li>
       <li><a class="listnav" href="about-me-page-2.html">About me</a></li>
+      <li><a class="listnav" href="about-me-page-3.html">Contact</a></li>
     </ul>
   </nav>
 
-  <body class="site">
+<body class="site">
 
     <header class="header">
     <h1>About me</h1>
     </header>
+
     <main class="site-content">
       <article class="article">
-
-        <h2>Hello! My name is Lisa. </h2>
      <h2> Cool that you want to get to know me! </h2>
-     <p> <q cite="https://quotecatalog.com/quote/greg-daniels-guess-what-i-h-X7qAEA7/"> Guess what, I have flaws. What are they? Oh I don't know.
+     <p class="quote"> <q  cite="https://quotecatalog.com/quote/greg-daniels-guess-what-i-h-X7qAEA7/"> Guess what, I have flaws. What are they? Oh I don't know.
        I sing in the shower. Sometimes I spend too much time volunteering.
        <br> Occasionally I'll hit somebody with my car. So sue me. </q>
      — Michael Scott </p>
-     <p>I'm active on social media, but you're not allowed to find me.
-     However, you can contact me here:</p>
-     <form action="/my-handling-form-page" method="post">
-     <div>
-         <label for="name">Name:</label>
-         <input type="text" id="name" name="user_name" />
-     </div>
-     <div>
-         <label for="mail">E-mail:</label>
-         <input type="email" id="mail" name="user_mail" />
-     </div>
-     <div>
-         <label for="msg">Message:</label>
-         <textarea id="msg" name="user_message"></textarea>
-     </div>
+     <article class="aboutme">
+       <p>My name is Lisa. A starter web developer/web designer based in Ghent. <br>
+       My passions are eating, sleeping and riding the bike. <br>
+        I also like books and food. <br>
+        I like to travel A LOT. And did I mention that I love food? </p>
+        </article>
+      </main>
 
-     <div class="button">
-         <button type="submit">Send your message</button>
-     </div>
- </form>
-          </article>
-    </main>
+    <section>
+    You can find me easily on social media:
+    <div class="footer-social-icons">
+          <ul class="social-icons">
+            <li><a href="https://www.facebook.com/lisa.cantaert" target="_blank" class="social-icon"> <i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/lisa-cantaert/" target="_blank" class="social-icon"> <i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/Lisacant" target="_blank" class="social-icon"> <i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/lisacantaert/" target="_blank" class="social-icon"> <i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </section>
 
-   <footer class="footer">My HTML page</footer>
+    <footer class="footer">My HTML page</footer>
   </body>
 </html>
