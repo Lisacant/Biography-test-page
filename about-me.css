@@ -100,4 +100,14 @@ span {
   text-align: center;
   background-color: #333;
   color: #e8e8e8;
+  width:100%;
+  height:20px;
+  bottom:0;
+  left:0;
+}
+
+@media only screen and (min-width: 320px) {
+.footer {
+    position: fixed;
+  }
 }
