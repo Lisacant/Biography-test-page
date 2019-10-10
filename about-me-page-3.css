@@ -33,8 +33,6 @@ body {
   flex: 2;
 }
 
-
-
 .ulnav {
   list-style-type: none;
   margin: 0;
@@ -73,22 +71,24 @@ body {
   background:#e6e6e6;
   border-radius:8px;
   box-shadow:0 0 40px -10px #000;
-  margin:calc(50vh - 220px) auto;
+  margin: 10px 0 50px 50px;
   padding:20px 30px;
   max-width:calc(100vw - 40px);
-  box-sizing:border-box;
+  box-sizing: border-box;
   font-family:'Montserrat',sans-serif;
   position:relative
 }
 
-h2{
-  margin:10px 0;
+.contactme {
+  margin:10px 50px 10px 80px;
+  text-align: center;
   padding-bottom:10px;
   width:180px;
   color:#78788c;
   border-bottom:3px
-  solid #78788c
+  solid: #78788c;
 }
+
 input {
   width:100%;
   padding:10px;
@@ -116,8 +116,8 @@ p:before {
 
 button {
   float:right;
-  padding:8px 12px;
-  margin:8px 0 0;
+  padding:5px 12px;
+  margin:5px 0 0;
   font-family:'Montserrat',sans-serif;
   border:2px solid #78788c;
   background:0;
@@ -133,13 +133,32 @@ button:hover {
 div {
   content:'Hi';
   position:absolute;
-  bottom:-15px;
-  right:-20px;
+  bottom:-30px;
+  right:-10px;
   background:#50505a;
   color:#fff;
-  width:320px;
-  padding:16px 4px 16px 0;
+  width:200px;
+  padding:16px 4px 16px 10px;
   border-radius:6px;
   font-size:13px;
   box-shadow:10px 10px 40px -14px #000
 }
+
+/*maps*/
+.formandmaps {
+  display: flex;
+}
+
+.findme {
+margin-left: 15px;
+ display: inline-block;
+ margin: 200px 0 0 50px;
+ float: left;
+ color:#78788c;
+ solid: #78788c;
+}
+
+ iframe {
+float: right;
+margin: 20px 20px 20px 20px;
+ }
