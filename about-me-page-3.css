@@ -3,7 +3,7 @@
 .header {
   text-align: center;
   height:60px;
-  background-image: url("/home/lcantaert/Downloads/Nepal.jpg");
+  background-image: url("Nepal.jpg");
   background-size: cover; /* or contain depending on what you want */
   background-position: center center;
   padding-top: 100px;
