@@ -140,16 +140,17 @@ div {
  margin: 200px 0 10px 50px;
  float: left;
  color:#78788c;
- solid: #78788c;
+
 }
 
 iframe {
   float: right;
   margin: 10px 20px 20px 20px;
+  border-radius: 10px;
+  border: 0px;
   box-shadow:0 0 40px -10px #000;
   width: 600px;
   height: 450px;
-  style = border:0;
  }
 
 /*footer*/
@@ -163,3 +164,36 @@ iframe {
    bottom:0;
    left:0;
  }
+
+ @media screen and (max-width: 600px) {
+   .footer {
+     position: fixed;
+   }
+ }
+
+ @media screen and (max-width: 600px) {
+   body {
+     font-size: 15px;
+   }
+   h2 {
+     font-size: 15px;
+   }
+ }
+
+ @media screen and (max-width:600px) {
+   .ulnav {
+     display: inline-block;
+     position: static;
+     width: 100%;
+     right: 0px;
+     top: 0px;
+   }
+
+   @media screen and (max-width:600px) {
+     .formandmaps {
+       display: inline-block;
+     }
+     .findme {
+       margin: 0px 0px 0px 20px;
+     }
+     }

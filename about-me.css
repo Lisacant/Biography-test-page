@@ -1,5 +1,6 @@
 /* Header and navigation */
 
+
 .header {
   text-align: center;
   height:60px;
@@ -85,7 +86,7 @@ span {
   position: absolute;
 }
 
-.article {
+.textandlines {
   display: flex;
 }
 
@@ -105,3 +106,31 @@ span {
   bottom:0;
   left:0;
 }
+
+@media screen and (max-width: 600px) {
+  .footer {
+    position: fixed;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .ulnav {
+    display: inline-block;
+    position: static;
+    width: 100%;
+    right: 0px;
+    top: 0px;
+  }
+
+@media screen and (max-width:600px) {
+    #titlefirst {
+    font-size: 20px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    .list {
+      font-size: 20px;
+      width: auto;
+    }
+  }

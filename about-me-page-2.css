@@ -155,8 +155,26 @@ ul {
   left:0;
 }
 
-@media only screen and (min-width: 320px) {
-.footer {
+@media screen and (max-width: 600px) {
+  .footer {
     position: fixed;
   }
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .ulnav {
+    display: inline-block;
+    position: static;
+    width: 100%;
+    right: 0px;
+    top: 0px;
+  }
